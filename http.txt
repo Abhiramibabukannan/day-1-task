@@ -1,0 +1,66 @@
+Diffrences between http1.1 & http 2 :
+HTTP/1.1
+It works on the textual format.
+There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+It uses requests resource In lining for use getting multiple pages
+It compresses data by itself.
+
+HTTP/2
+It works on the binary protocol.
+It allows multiplexing so one TCP connection is required for multiple requests.
+It uses PUSH frame by server that collects all multiple pages 
+It uses HPACK for data compression.
+
+Blog about objects & internal representation in javascript:
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data,
+ of primitive or reference types, in the form of “key: value” pairs. These keys can be variables or functions
+  and are called properties and methods, respectively, in the context of an object.
+
+       Objects and properties:
+
+A JavaScript object has properties associated with it. A property of an object can be explained as a
+ variable that is attached to the object. Object properties are basically the same as ordinary JavaScript
+  variables, except for the attachment to objects. The properties of an object define the characteristics 
+  of the object. You access the properties of an object with a simple dot-notation:
+
+IP Address:
+
+All the computers of the world on the Internet network communicate with each other with underground or
+ underwater cables or wirelessly. If I want to download a file from the internet or load a web page or 
+ literally do anything related to the internet, my computer must have an address so that other computers 
+ can find and locate mine in order to deliver that particular file or webpage that I am requesting. In 
+ technical terms, that address is called IP Address or Internet Protocol Address.
+1.	IPv4:
+2.	IPv6:
+
+About port:
+The port property sets or returns the port number of a URL.
+
+HTTP methods:
+There are 8 methods in https,
+1) GET
+The GET method is used to retrieve information from the given server using a given URI.
+ Requests
+ using GET should only retrieve data and should have no other effect on the data.
+2) HEAD
+Same as GET, but transfers the status line and header section only.
+3) POST
+A POST request is used to send data to the server, for example, customer information,
+ file upload, 
+etc. using HTML forms.
+4)PUT
+Replaces all current representations of the target resource with the uploaded content.
+5) DELETE
+Removes all current representations of the target resource given by a URI.
+6) CONNECT
+Establishes a tunnel to the server identified by a given URI.
+7) OPTIONS
+Describes the communication options for the target resource.
+8) TRACE
+Performs a message loop-back test along the path to the target resource.
+
+
